@@ -11,19 +11,19 @@ function send_mail($data)
     try {
         // $mail->SMTPDebug = 2;
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com;';
+        $mail->Host       = 'smtp.office365.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'rajesh.vora@tiez.nl';
-        $mail->Password   = 'rajesh@vora';
+        $mail->Username   = 'noreply@diamondestate.co.in';
+        $mail->Password   = 'dgzrrxyhdztlmtmr';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
         $mail->SMTPDebug = false;
-        $mail->setFrom('noreply@tiez.nl', 'Diamond Estate');
-        $mail->addAddress('receiver1@mailinator.com');
+        $mail->setFrom('noreply@diamondestate.co.in', 'Diamond Estate');
+        $mail->addAddress('customer.connect@kscheemagroup.com');
         // $mail->addAddress('receiver2@gfg.com', 'Name');
 
         $mail->isHTML(true);
-        $mail->Subject = 'Test Subject';
+        $mail->Subject = 'New enquiry from Diamond Estate website';
         $mail->Body    = 'Hello Team, <br/><br/><br/>
         You received an inquiry from '.$data['first_name'].' form. <br/><br/>
         Name: '.$data['first_name'].'<br/><br/>
