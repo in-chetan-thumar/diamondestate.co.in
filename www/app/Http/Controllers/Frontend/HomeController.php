@@ -44,12 +44,14 @@ class HomeController extends Controller
 
     public function enquiryForm(EnquiryRequest $request)
     {
-        $email = 'rabi.mohanty@quantuminfoway.com';
-        $first_name = $request->first_name;
-        $message = $request->message;
+        $email = config('constants.TO_EMAIL');
         $mailData = [
             'title' => 'Enquiry notification mail',
-            'body' => $first_name.' has an enquiry for '. $message
+            'subject' => 'New enquiry from Diamond Estate website',
+            'first_name' => $request->first_name,
+            'email' => $request->email,
+            'mobile' => $request->mobile,
+            'message' => $request->message,
         ];
 
         Mail::to($email)->send(new EnquiryMail($mailData));
