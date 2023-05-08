@@ -130,18 +130,23 @@
                                         <div class="swiper-container gallery-main gallerybig">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a href="images/project_img.jpg" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/KKA1.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA1.jpg') }}"
                                                             alt="Slide 01"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="images/project_img.jpg" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img2.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/KKA2.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA2.jpg') }}"
                                                             alt="Slide 02"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="images/project_img.jpg" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/KKA3.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA3.jpg') }}"
+                                                            alt="Slide 03"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="{{ asset('assets/frontend/images/KKA4.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA4.jpg') }}"
                                                             alt="Slide 03"></a>
                                                 </div>
 
@@ -151,13 +156,16 @@
                                         <div class="swiper-container gallery-thumbs gallerysmall">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb1.jpg') }}"
                                                         alt="Slide 01"></div>
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img12.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb2.jpg') }}"
                                                         alt="Slide 02"></div>
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img13.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb3.jpg') }}"
+                                                        alt="Slide 03"></div>
+                                                <div class="swiper-slide"><img
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb4.jpg') }}"
                                                         alt="Slide 03"></div>
                                             </div>
                                         </div>
@@ -341,17 +349,17 @@
                                         <div class="swiper-container gallery-main2 gallerybig">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a href="images/project_img2.jpg" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img2.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/project_img.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/project_img.jpg') }}"
                                                             alt="Slide 01"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="images/project_img2.jpg" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/project_img2.jpg') }}" data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/project_img2.jpg') }}"
                                                             alt="Slide 02"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="images/project_img.jpg" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/project_img.jpg') }}" data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/project_img.jpg') }}"
                                                             alt="Slide 03"></a>
                                                 </div>
@@ -362,13 +370,13 @@
                                         <div class="swiper-container gallery-thumbs2 gallerysmall">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img2.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/projectthumb_img.jpg') }}"
                                                         alt="Slide 01"></div>
                                                 <div class="swiper-slide"><img
                                                         src="{{ asset('assets/frontend/images/projectthumb_img2.jpg') }}"
                                                         alt="Slide 02"></div>
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img2.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/projectthumb_img.jpg') }}"
                                                         alt="Slide 03"></div>
                                             </div>
                                         </div>
