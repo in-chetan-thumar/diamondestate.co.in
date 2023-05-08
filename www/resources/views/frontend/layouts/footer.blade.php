@@ -24,10 +24,9 @@
             <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-5 col-sm-12">
                 <div class="footer_wrapper footer_contact_info wow fadeInRight" data-wow-delay="0.4s">
                     <div class="title">Address</div>
-                    <p>No.163, 5th Ave St, Teacher's Colony, Jakkasandra, 1st Block Koramangala, Koramangala, Bengaluru,
-                        Karnataka 560034</p>
+                    <p>2nd floor, 210, Ghatate chambers, panchseel sqaure, Ramdaspeth, Nagpur-440010.</p>
                     <ul>
-                        <li><span>Contact no</span>: <a href="tel:+9023675434">+9023675434</a></li>
+                        <li><span>Contact no</span>: <a href="tel:07122459484">0712-2459484</a></li>
                         <li><span>Email id </span>: <a href="mailto:diamondestate@gmail.com">diamondestate@gmail.com</a>
                         </li>
                     </ul>
