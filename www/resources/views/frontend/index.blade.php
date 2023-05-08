@@ -358,11 +358,6 @@
                                                             src="{{ asset('assets/frontend/images/project_img2.jpg') }}"
                                                             alt="Slide 02"></a>
                                                 </div>
-                                                <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/project_img.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img.jpg') }}"
-                                                            alt="Slide 03"></a>
-                                                </div>
 
                                             </div>
 
@@ -375,9 +370,6 @@
                                                 <div class="swiper-slide"><img
                                                         src="{{ asset('assets/frontend/images/projectthumb_img2.jpg') }}"
                                                         alt="Slide 02"></div>
-                                                <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img.jpg') }}"
-                                                        alt="Slide 03"></div>
                                             </div>
                                         </div>
                                     </div>
