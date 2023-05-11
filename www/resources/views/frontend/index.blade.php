@@ -127,52 +127,37 @@
                             <div class="recent_projects_img wow fadeInLeft" data-wow-delay="0.2s">
                                 <div class="swiper_main_slide">
                                     <div class="gallery-container">
-                                        <div class="swiper-container gallery-main gallerybig">
+                                        
+                                        <div class="swiper-container gallery-main2 gallerybig">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA1.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/KKA1.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/diamondone1.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/diamondone1.jpg') }}"
                                                             alt="Slide 01"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA2.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/KKA2.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/diamondone2.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/diamondone2.jpg') }}"
                                                             alt="Slide 02"></a>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA3.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/KKA3.jpg') }}"
-                                                            alt="Slide 03"></a>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA4.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/KKA4.jpg') }}"
-                                                            alt="Slide 03"></a>
                                                 </div>
 
                                             </div>
 
                                         </div>
-                                        <div class="swiper-container gallery-thumbs gallerysmall">
+                                        <div class="swiper-container gallery-thumbs2 gallerysmall">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/KKA_thumb1.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/diamondone_thumb1.jpg') }}"
                                                         alt="Slide 01"></div>
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/KKA_thumb2.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/diamondone_thumb2.jpg') }}"
                                                         alt="Slide 02"></div>
-                                                <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/KKA_thumb3.jpg') }}"
-                                                        alt="Slide 03"></div>
-                                                <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/KKA_thumb4.jpg') }}"
-                                                        alt="Slide 03"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <a target="_blank"
-                                    href="https://www.google.com/maps/place/Abhyankar+Marg,+Yashwant+Stadium,+Nagpur,+Maharashtra+440012/@21.1388998,79.0832597,17z/data=!4m6!3m5!1s0x3bd4c0969836e08b:0xe1b670eae684a5f6!8m2!3d21.1388998!4d79.0832597!16s%2Fg%2F1hhlc9ppt"
+                                    href="https://goo.gl/maps/HFSjz1HdubuYSLRS7"
                                     class="btn btn-primary locate_btn">Locate <svg width="24" height="18"
                                         viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M24 0L0 3.33333L10.6667 8V18L24 0Z" fill="white" />
@@ -346,36 +331,52 @@
                             <div class="recent_projects_img wow fadeInLeft" data-wow-delay="0.2s">
                                 <div class="swiper_main_slide">
                                     <div class="gallery-container">
-                                        <div class="swiper-container gallery-main2 gallerybig">
+                                        <div class="swiper-container gallery-main gallerybig">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/project_img.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/KKA1.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA1.jpg') }}"
                                                             alt="Slide 01"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/project_img2.jpg') }}" data-fancybox="group"><img
-                                                            src="{{ asset('assets/frontend/images/project_img2.jpg') }}"
+                                                    <a href="{{ asset('assets/frontend/images/KKA2.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA2.jpg') }}"
                                                             alt="Slide 02"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="{{ asset('assets/frontend/images/KKA3.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA3.jpg') }}"
+                                                            alt="Slide 03"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="{{ asset('assets/frontend/images/KKA4.jpg') }}" data-fancybox="group"><img
+                                                            src="{{ asset('assets/frontend/images/KKA4.jpg') }}"
+                                                            alt="Slide 03"></a>
                                                 </div>
 
                                             </div>
 
                                         </div>
-                                        <div class="swiper-container gallery-thumbs2 gallerysmall">
+                                        <div class="swiper-container gallery-thumbs gallerysmall">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb1.jpg') }}"
                                                         alt="Slide 01"></div>
                                                 <div class="swiper-slide"><img
-                                                        src="{{ asset('assets/frontend/images/projectthumb_img2.jpg') }}"
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb2.jpg') }}"
                                                         alt="Slide 02"></div>
+                                                <div class="swiper-slide"><img
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb3.jpg') }}"
+                                                        alt="Slide 03"></div>
+                                                <div class="swiper-slide"><img
+                                                        src="{{ asset('assets/frontend/images/KKA_thumb4.jpg') }}"
+                                                        alt="Slide 03"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <a target="_blank"
-                                    href="https://www.google.com/maps/place/Amravati+Rd,+Vayusena+Nagar,+Nagpur,+Maharashtra/@21.1526929,79.020676,17z/data=!4m6!3m5!1s0x3bd4c05cba81a7b7:0xa172dac92ee903e3!8m2!3d21.1526929!4d79.020676!16s%2Fg%2F1hhwcl1r3"
+                                    href="https://goo.gl/maps/JxkGgaDgvp3ToNo78"
                                     class="btn btn-primary locate_btn">Locate <svg width="24" height="18"
                                         viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M24 0L0 3.33333L10.6667 8V18L24 0Z" fill="white" />
@@ -407,31 +408,31 @@
                         <div class="row">
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('first_name', 'First name', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('first_name', 'First name', ['class' => 'input-label']) !!}
                                     {!! Form::text('first_name', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('last_name', 'Last name', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('last_name', 'Last name', ['class' => 'input-label']) !!}
                                     {!! Form::text('last_name', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('email', 'Email id', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('email', 'Email id', ['class' => 'input-label']) !!}
                                     {!! Form::email('email', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <div class="form-group input-box">
-                                    {!! Form::label('mobile', 'Mobile number', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('mobile', 'Mobile number', ['class' => 'input-label']) !!}
                                     {!! Form::number('mobile', null, ['class' => 'form-control input']) !!}
                                 </div>
                             </div>
                             <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                                 <div class="form-group input-box">
-                                    {!! Form::label('message', 'Message', ['class' => 'input-label']) !!}<span class="required" style="color: red;">*</span>
+                                    {!! Form::label('message', 'Message', ['class' => 'input-label']) !!}
                                     {!! Form::textarea('message', null, [
                                         'class' => 'form-control input',
                                         'id' => '',

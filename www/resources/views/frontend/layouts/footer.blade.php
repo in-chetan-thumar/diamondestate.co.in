@@ -41,6 +41,11 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                <div class="footer_wrapper footer_links wow fadeInRight" data-wow-delay="0.6s">
+                    <p>Copyright @ Diamond Estate HANDCRAFTED WITH ❤ BY <a href="https://www.buzzmakers.in/" target="_blank">BUZZ MAKERS</a> </p>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
