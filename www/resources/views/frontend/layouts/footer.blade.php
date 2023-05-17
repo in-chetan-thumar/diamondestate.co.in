@@ -24,11 +24,11 @@
             <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-5 col-sm-12">
                 <div class="footer_wrapper footer_contact_info wow fadeInRight" data-wow-delay="0.4s">
                     <div class="title">Address</div>
-                    <p>2nd floor, 210, Ghatate chambers, panchseel sqaure, Ramdaspeth, Nagpur-440010.</p>
+                    <p>Flat No. 602, Diamond One, Dhantoli, Nagpur</p>
                     <ul>
-                        <li><span>Contact no</span>: <a href="tel:07122459484">0712-2459484</a></li>
-                        <li><span>Email id </span>: <a href="mailto:diamondestate@gmail.com">diamondestate@gmail.com</a>
-                        </li>
+                        <li><span>Contact no</span>: <a href="tel:07122459484">9223542892</a></li>
+                        {{-- <li><span>Email id </span>: <a href="mailto:diamondestate@gmail.com">diamondestate@gmail.com</a>
+                        </li> --}}
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
                 <div class="footer_wrapper footer_links wow fadeInRight" data-wow-delay="0.6s">
-                    <p>Copyright @ Diamond Estate HANDCRAFTED WITH ❤ BY <a href="https://www.buzzmakers.in/" target="_blank">BUZZ MAKERS</a> </p>
+                    <p>Copyright @ Diamond Estate Handcrafted with ❤ by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers</a> </p>
                 </div>
             </div>
         </div>

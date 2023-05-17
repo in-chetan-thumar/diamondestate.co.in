@@ -69,7 +69,7 @@
                     <div class="row g-4">
                         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                             <div class="recent_projects_cnt">
-                                <span class="wow fadeInRight" data-wow-delay="0.4s">Commercial</span>
+                                <span class="wow fadeInRight" data-wow-delay="0.4s">Commercial and Residential</span>
                                 <h2 class="wow fadeInRight" data-wow-delay="0.6s">Diamond One</h2>
                                 <div class="project_dtl wow fadeInRight" data-wow-delay="0.8s">
                                     <ul class="location">
