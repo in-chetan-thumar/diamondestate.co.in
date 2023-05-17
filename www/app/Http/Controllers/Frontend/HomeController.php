@@ -56,8 +56,8 @@ class HomeController extends Controller
 
         Mail::to($email)->send(new EnquiryMail($mailData));
         $data['error'] = false;
-        $data['view'] = view('frontend.index')->render();
-        $data['message'] = 'Thank you for your message. It has been sent.';
+        // $data['view'] = view('frontend.index')->render();
+        // $data['message'] = 'Thank you for your message. It has been sent.';
         return response()->json($data);
     }
 

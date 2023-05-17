@@ -127,16 +127,18 @@
                             <div class="recent_projects_img wow fadeInLeft" data-wow-delay="0.2s">
                                 <div class="swiper_main_slide">
                                     <div class="gallery-container">
-                                        
+
                                         <div class="swiper-container gallery-main2 gallerybig">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/diamondone1.jpg') }}" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/diamondone1.jpg') }}"
+                                                        data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/diamondone1.jpg') }}"
                                                             alt="Slide 01"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/diamondone2.jpg') }}" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/diamondone2.jpg') }}"
+                                                        data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/diamondone2.jpg') }}"
                                                             alt="Slide 02"></a>
                                                 </div>
@@ -156,8 +158,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a target="_blank"
-                                    href="https://goo.gl/maps/HFSjz1HdubuYSLRS7"
+                                <a target="_blank" href="https://goo.gl/maps/HFSjz1HdubuYSLRS7"
                                     class="btn btn-primary locate_btn">Locate <svg width="24" height="18"
                                         viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M24 0L0 3.33333L10.6667 8V18L24 0Z" fill="white" />
@@ -334,22 +335,26 @@
                                         <div class="swiper-container gallery-main gallerybig">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA1.jpg') }}" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/KKA1.jpg') }}"
+                                                        data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/KKA1.jpg') }}"
                                                             alt="Slide 01"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA2.jpg') }}" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/KKA2.jpg') }}"
+                                                        data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/KKA2.jpg') }}"
                                                             alt="Slide 02"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA3.jpg') }}" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/KKA3.jpg') }}"
+                                                        data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/KKA3.jpg') }}"
                                                             alt="Slide 03"></a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a href="{{ asset('assets/frontend/images/KKA4.jpg') }}" data-fancybox="group"><img
+                                                    <a href="{{ asset('assets/frontend/images/KKA4.jpg') }}"
+                                                        data-fancybox="group"><img
                                                             src="{{ asset('assets/frontend/images/KKA4.jpg') }}"
                                                             alt="Slide 03"></a>
                                                 </div>
@@ -375,8 +380,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a target="_blank"
-                                    href="https://goo.gl/maps/JxkGgaDgvp3ToNo78"
+                                <a target="_blank" href="https://goo.gl/maps/JxkGgaDgvp3ToNo78"
                                     class="btn btn-primary locate_btn">Locate <svg width="24" height="18"
                                         viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M24 0L0 3.33333L10.6667 8V18L24 0Z" fill="white" />
@@ -401,8 +405,6 @@
                         {!! Form::open([
                             'url' => route('frontend.enquiry'),
                             'method' => 'POST',
-                            // 'class' => 'wow fadeInUp',
-                            // 'data-wow-delay' => '0.2s',
                             'id' => 'enquiry_form',
                         ]) !!}
                         <div class="row">
@@ -448,6 +450,18 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 mt-2 hide" id="error-message" style="display: none">
+                                <div class="alert alert-danger alert-dismissible fade show">
+                                    
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 mt-2 hide" id="success-message"  style="display: none">
+                                <div class="alert alert-success alert-dismissible fade show">
+                                    Thank you for your message. It has been sent.
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                                </div>
+                            </div>
                         </div>
                         {!! Form::close() !!}
                     </div>
@@ -455,10 +469,8 @@
             </div>
         </div>
     </section>
-
-    
-    @endsection
-    @section('script')
+@endsection
+@section('script')
     {!! JsValidator::formRequest('App\Http\Requests\EnquiryRequest', '#enquiry_form') !!}
     <script>
         var galleryThumbs = new Swiper(".gallery-thumbs", {
@@ -540,10 +552,8 @@
             var formData = new FormData($('#enquiry_form')[0]);
             var url = $(this).attr('action');
             var method = $(this).attr('method');
-            
+
             if ($(this).valid()) {
-                $('#status').show();
-                $('#preloader').show();
                 $.ajax({
                     headers: {
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -555,20 +565,16 @@
                     data: formData,
                     success: function(data, textStatus, jqXHR) {
                         if (!data.error) {
-                          toastr.success(data.message);
-                          console.log(data.message)
-                          $("body").html(data.view)
-                          console.log('sdfgjh')
+                            $('#success-message').show();
+                            $('#enquiry_form')[0].reset();
                         } else {
-                            $('#status').hide();
-                            $('#preloader').hide();
-                            toastr.error(data.message);
+                            $('#error-message').show();
+                            $('#error-message .alert-danger').text(data.message).append('<button type="button" class="btn-close" data-bs-dismiss="alert"></button>');;
                         }
                     },
                     error: function(jqXHR, textStatus, errorThrown) {
-                        $('#status').hide();
-                        $('#preloader').hide();
-                        toastr.error('Error occurred!');
+                        $('#error-message').show();
+                        $('#error-message .alert-danger').text(data.message);
                     }
                 });
             }
